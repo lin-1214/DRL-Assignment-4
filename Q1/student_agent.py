@@ -1,7 +1,7 @@
 import gymnasium as gym
 import numpy as np
 import torch
-from train_ppo import PPOAgent, TrainingConfig
+from train_pendulum import PPOAgent, TrainingConfig
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
