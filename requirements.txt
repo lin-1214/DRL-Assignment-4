@@ -3,6 +3,7 @@ requests
 argparse
 torch
 torchvision
+shimmy
 gymnasium==1.1.1
 dm_control==1.0.28
 imageio==2.37.0
