@@ -11,7 +11,7 @@ class Agent(object):
         self.config = get_default_config()
         self.agent = SAC(67, 21, self.action_space, self.config)
 
-        self.agent.load_model("./sac_humanoid_1750.pth")
+        self.agent.load_model("./sac_humanoid_best.pth")
         self.agent.policy.eval()
 
     def act(self, observation):
